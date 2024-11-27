@@ -6,7 +6,7 @@
 
 O projeto propõe a criação de um algoritmo de uma aplicação concorrente que simule o comportamento de uma rede de entregas, em que encomendas são transportadas por veículos de um ponto de redistribuição até outro. Ao longo do projeto, utilizamos artifícios importantes estudados na disciplina de Sistemas Operacionais I como o barramento, para a inicialização de tarefas, e o mutex como semáforo, para restringir certas ações a fim de impedir a sobreposição de dados.
 
-## Fluxo Básico 🌀
+## Fluxo Básico 📦
 
 A principio inicializamos as threads, os pontos de distribuição, os veículos e as encomendas.<br>
 Os pontos de distribuição aguardam as encomendas estarem inicializadas, para começar o carregamento dos veículos.<br>
