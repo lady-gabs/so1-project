@@ -35,7 +35,7 @@ pontos_distribuicao_faltantes = S
 encomendas_faltantes = P
 
 def salvar_rastro(encomenda):
-    with open(f"encomenda_{encomenda['id']}_acompanhamento.txt", "w") as file:
+    with open(f"encomenda_{encomenda['id'] + 1}_acompanhamento.txt", "w") as file:
         file.write("\n".join(encomenda["acompanhamento"]))
 
 def descarregar_encomenda(ponto_distribuicao_atual, pos_veiculo):
