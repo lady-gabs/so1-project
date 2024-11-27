@@ -44,7 +44,7 @@ A aplicação gera dois tipos de saída:
    - Python 3.x
 
 2. **Execução do Programa:**
-   - Clone o repositório do projeto (preferência: Github).
+   - Clone o repositório do projeto.
    - Execute o código principal com Python:
      ```bash
      python main.py
