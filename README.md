@@ -2,7 +2,7 @@
 **Alunos**: Felipe Silva Alves de Oliveira, Gabriella Alves de Oliveira, João Pedro Bastasini Garcia de Souza.<br>
 **Docente**: Prof. Dr. Caetano Mazzoni Ranieri
 
-## Sobre o projeto 💻
+## Sobre o projeto 🚀
 
 O projeto propõe a criação de um algoritmo de uma aplicação concorrente que simule o comportamento de uma rede de entregas, em que encomendas são transportadas por veículos de um ponto de redistribuição até outro. Ao longo do projeto, utilizamos artifícios importantes estudados na disciplina de Sistemas Operacionais I como o barramento, para a inicialização de tarefas, e o mutex como semáforo, para restringir certas ações a fim de impedir a sobreposição de dados.
 
@@ -38,7 +38,7 @@ A aplicação gera dois tipos de saída:
 1. **Monitoramento em Tempo Real:** Mensagens são exibidas no console para indicar o progresso dos veículos e encomendas.
 2. **Arquivos de Acompanhamento:** Cada encomenda gera um arquivo de rastro que registra o número da encomenda, seus pontos de origem e destino, e os horários de carregamento e descarregamento.
 
-## Como Executar o Código
+## Como Executar o Código 💻
 
 1. **Requisitos:**
    - Python 3.x
@@ -59,7 +59,7 @@ A aplicação gera dois tipos de saída:
    - A aplicação irá exibir no console o progresso das entregas, incluindo quando encomendas são carregadas e descarregadas.
    - Arquivos de acompanhamento serão gerados para cada encomenda na pasta do projeto, registrando o histórico completo da entrega.
 
-## Observações
+## Observações 💡
 - O programa foi projetado para simular um ambiente concorrente, com sincronização apropriada usando mutexes e semáforos.
 - Certifique-se de fornecer valores apropriados para S, C, P e A, de modo a observar claramente a concorrência e a sincronização entre as threads.
 
